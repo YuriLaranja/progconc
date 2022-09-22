@@ -166,116 +166,202 @@ Lei de Amdahl >> 0,596375/0,1408873 = 4,23 >> 423% de ganho
 
 
 **1000X1000* 
+
 **Execução 1**
+
 O programa demorou 0.000050 segundos para criar a matriz
+
 O programa demorou 1.109305 segundos para fazer a multiplicação
+
 O programa demorou 0.000007 segundos para escrever no arquivo
+
 O programa demorou 1.109362 segundos total
+
 **Execução 2**
+
 O programa demorou 0.000014 segundos para criar a matriz
+
 O programa demorou 1.107495 segundos para fazer a multiplicação
+
 O programa demorou 0.000007 segundos para escrever no arquivo
+
 O programa demorou 1.107516 segundos total
+
 **Execução 3**
+
 O programa demorou 0.000282 segundos para criar a matriz
+
 O programa demorou 1.126362 segundos para fazer a multiplicação
+
 O programa demorou 0.000009 segundos para escrever no arquivo
+
 O programa demorou 1.126653 segundos total
+
 média = (1.109362+1.107516+1.126653)/3
+
 **média = 1,103725 segundos**
+
 Ganho teórico: 400%
 Ganho Real:
 Lei de Amdahl >> 3,972725/1,103725 = 3,6 >> 360% de ganho
 
 **2000X2000* 
+
 **Execução 1**
+
 O programa demorou 0.000019 segundos para criar a matriz
+
 O programa demorou 8.954469 segundos para fazer a multiplicação
+
 O programa demorou 0.000038 segundos para escrever no arquivo
+
 O programa demorou 8.954526 segundos total
 
 **Execução 2**
+
 O programa demorou 0.000014 segundos para criar a matriz
+
 O programa demorou 8.808237 segundos para fazer a multiplicação
+
 O programa demorou 0.000046 segundos para escrever no arquivo
+
 O programa demorou 8.808297 segundos total
+
 **Execução 3**
 O programa demorou 0.000043 segundos para criar a matriz
+
 O programa demorou 8.983490 segundos para fazer a multiplicação
+
 O programa demorou 0.000052 segundos para escrever no arquivo
+
 O programa demorou 8.983585 segundos total
+
 média = (8.954526+8.808297+8.983585)/3
+
 **média = 8,9154693 segundos**
+
 Ganho teórico: 400%
 Ganho Real:
 Lei de Amdahl >> 29,23041466666667/8,9154693 = 3,278 >> 320% de ganho
 
 ---------------------
 
-
 **Com 6 threads**
+
 **500X500* 
+
 **Execução 1**
+
 O programa demorou 0.000017 segundos para criar a matriz
+
 O programa demorou 0.090180 segundos para fazer a multiplicação
+
 O programa demorou 0.000005 segundos para escrever no arquivo
+
 O programa demorou 0.090203 segundos total
+
 **Execução 2**
 O programa demorou 0.000013 segundos para criar a matriz
+
 O programa demorou 0.086917 segundos para fazer a multiplicação
+
 O programa demorou 0.000005 segundos para escrever no arquivo
+
 O programa demorou 0.086936 segundos total
+
 **Execução 3**
+
 O programa demorou 0.000013 segundos para criar a matriz
+
 O programa demorou 0.089927 segundos para fazer a multiplicação
+
 O programa demorou 0.000007 segundos para escrever no arquivo
+
 O programa demorou 0.086936 segundos total
+
 média = (0.090203+0.086936+0.086936)/3
+
 **média = 0,088025 segundos**
+
 Ganho teórico: 600%
 Ganho Real:
 Lei de Amdahl >> 0,596375/0,088025 = 6,77 >> 677% de ganho
 
 **1000X1000*
+
 **Execução 1**
+
 O programa demorou 0.000018 segundos para criar a matriz
+
 O programa demorou 0.672197 segundos para fazer a multiplicação
+
 O programa demorou 0.000007 segundos para escrever no arquivo
+
 O programa demorou 0.672222 segundos total
+
 **Execução 2**
+
 O programa demorou 0.000016 segundos para criar a matriz
+
 O programa demorou 0.661949 segundos para fazer a multiplicação
+
 O programa demorou 0.000006 segundos para escrever no arquivo
+
 O programa demorou 0.661970 segundos total
+
 **Execução 3**
+
 O programa demorou 0.000014 segundos para criar a matriz
+
 O programa demorou 0.668038 segundos para fazer a multiplicação
+
 O programa demorou 0.000006 segundos para escrever no arquivo
+
 O programa demorou 0.668058 segundos total
+
 média = (0.672222+0.661970+0.668058)/3
+
 **média = 0,667416 segundos**
+
 Ganho teórico: 600%
 Ganho Real:
 Lei de Amdahl >> 3,972725/0,667416 = 5,95 >> 595% de ganho
 
 **2000X2000*
+
 **Execução 1**
+
 O programa demorou 0.000019 segundos para criar a matriz
+
 O programa demorou 5.546347 segundos para fazer a multiplicação
+
 O programa demorou 0.000048 segundos para escrever no arquivo
+
 O programa demorou 5.546414 segundos total
+
 **Execução 2**
+
 O programa demorou 0.000014 segundos para criar a matriz
+
 O programa demorou 5.612300 segundos para fazer a multiplicação
+
 O programa demorou 0.000053 segundos para escrever no arquivo
+
 O programa demorou 5.612367 segundos total
+
 **Execução 3**
 O programa demorou 0.000014 segundos para criar a matriz
+
 O programa demorou 5.548697 segundos para fazer a multiplicação
+
 O programa demorou 0.000047 segundos para escrever no arquivo
+
 O programa demorou 5.548757 segundos total
+
 média = (5.546414+5.612367+5.548757)/3
+
 **média = 5,5691793 segundos**
+
 Ganho teórico: 600%
 Ganho Real:
 Lei de Amdahl >> 29,23041466666667/5,5691793 = 5,24 >> 524% de ganho

@@ -11,12 +11,18 @@ O programa demorou 0.000018 segundos para criar a matriz
 O programa demorou 0.260478 segundos para fazer a multiplicação
 O programa demorou 0.000006 segundos para escrever no arquivo
 O programa demorou 0.260502 segundos total
+
+
 **Execução 2**
+
 O programa demorou 0.000014 segundos para criar a matriz
 O programa demorou 0.274820 segundos para fazer a multiplicação
 O programa demorou 0.000007 segundos para escrever no arquivo
 O programa demorou 0.274842 segundos total
+
 **Execução 3**
+
+
 O programa demorou 0.000013 segundos para criar a matriz
 O programa demorou 0.256618 segundos para fazer a multiplicação
 O programa demorou 0.000006 segundos para escrever no arquivo

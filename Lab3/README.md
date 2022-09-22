@@ -1,5 +1,5 @@
 
-*** Verifiquei os arquivos Binários das execução sequencial e da concorrente com o diff e retornou vazio como esperado***
+**Verifiquei os arquivos Binários das execução sequencial e da concorrente com o diff e retornou vazio como esperado**
 Lei de Amdahl
 (T sequencial/T concorrente)
 Verificando o tempo agora
@@ -8,8 +8,11 @@ Verificando o tempo agora
 **500X500* 
 **Execução 1**
 O programa demorou 0.000018 segundos para criar a matriz
+
 O programa demorou 0.260478 segundos para fazer a multiplicação
+
 O programa demorou 0.000006 segundos para escrever no arquivo
+
 O programa demorou 0.260502 segundos total
 
 

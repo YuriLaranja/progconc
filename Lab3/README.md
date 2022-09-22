@@ -5,7 +5,8 @@ Lei de Amdahl
 Verificando o tempo agora
 **Com 2 threads**
 ----------------------
-**500X500* 
+**500X500**
+
 **Execução 1**
 O programa demorou 0.000018 segundos para criar a matriz
 
@@ -44,8 +45,10 @@ Ganho Real:
 Lei de Amdahl >> 0,596375/0,2639936 = 2,25 >> 125%
 
 
-**1000X1000* 
+**1000X1000** 
+
 **Execução 1**
+
 O programa demorou 0.000019 segundos para criar a matriz
 
 O programa demorou 2.096585 segundos para fazer a multiplicação
@@ -83,7 +86,7 @@ Ganho Real:
 Lei de Amdahl >> 3,972725/2,096165 = 1,89 >> 89% de ganho
 
 
-**2000X2000* 
+**2000X2000**
 
 **Execução 1**
 
@@ -125,7 +128,7 @@ Lei de Amdahl >> 29,23041466666667/16,82998 = 1,73 >> 73% de ganho
 
 **Com 4 threads**
 
-**500X500* 
+**500X500** 
 
 **Execução 1**
 O programa demorou 0.000017 segundos para criar a matriz
@@ -165,7 +168,7 @@ Ganho Real:
 Lei de Amdahl >> 0,596375/0,1408873 = 4,23 >> 423% de ganho
 
 
-**1000X1000* 
+**1000X1000** 
 
 **Execução 1**
 
@@ -205,7 +208,7 @@ Ganho teórico: 400%
 Ganho Real:
 Lei de Amdahl >> 3,972725/1,103725 = 3,6 >> 360% de ganho
 
-**2000X2000* 
+**2000X2000** 
 
 **Execução 1**
 
@@ -248,7 +251,7 @@ Lei de Amdahl >> 29,23041466666667/8,9154693 = 3,278 >> 320% de ganho
 
 **Com 6 threads**
 
-**500X500* 
+**500X500** 
 
 **Execução 1**
 
@@ -287,7 +290,7 @@ Ganho teórico: 600%
 Ganho Real:
 Lei de Amdahl >> 0,596375/0,088025 = 6,77 >> 677% de ganho
 
-**1000X1000*
+**1000X1000**
 
 **Execução 1**
 
@@ -327,7 +330,7 @@ Ganho teórico: 600%
 Ganho Real:
 Lei de Amdahl >> 3,972725/0,667416 = 5,95 >> 595% de ganho
 
-**2000X2000*
+**2000X2000**
 
 **Execução 1**
 

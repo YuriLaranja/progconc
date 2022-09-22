@@ -1,5 +1,7 @@
 
 **Verifiquei os arquivos Binários das execução sequencial e da concorrente com o diff e retornou vazio como esperado**
+
+
 Lei de Amdahl
 (T sequencial/T concorrente)
 Verificando o tempo agora
